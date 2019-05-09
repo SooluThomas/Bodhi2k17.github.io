@@ -1,1 +1,3 @@
 language: html
+install:
+  - gem install rake
