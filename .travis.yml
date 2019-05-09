@@ -1,1 +1,8 @@
 language: html5
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 0_pZIQ-siQJRVlRuC_rm9A
+  keep_history: true
+  on:
+    branch: master
